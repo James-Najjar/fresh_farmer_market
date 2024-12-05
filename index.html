@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Fresh Farms Market of Grosse Pointe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .site-name {
+            text-decoration: none;
+        }
+        .site-name:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand site-name" href="index.html" title="Go to Home Page">
+                    <img src="./images/logo.png" alt="Fresh Farms Market Logo" width="50" height="50" class="d-inline-block align-top">
+                    Fresh Farms Market
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="products.html">Our Products</a></li>
+                                <li><a class="dropdown-item" href="services.html">Services</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="locations.html">Locations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container my-4">
+        <h1 class="mb-4">Welcome to Fresh Farms Market</h1>
+
+        <div id="homeCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src=https://static.wixstatic.com/media/a5eaf230e7104a7f90006e83248706d3.jpg/v1/fill/w_1225,h_879,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a5eaf230e7104a7f90006e83248706d3.jpg" class="d-block w-100" alt="Fresh Produce">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://static.wixstatic.com/media/113df6_bb9dffb7019d426fa05bece3fc45de3a~mv2_d_1920_1280_s_2.jpg/v1/fill/w_1225,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/113df6_bb9dffb7019d426fa05bece3fc45de3a~mv2_d_1920_1280_s_2.jpg" class="d-block w-100" alt="Local Goods">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://static.wixstatic.com/media/e2f343b0c96f486a8461ed036e01a153.jpg/v1/fill/w_1899,h_584,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e2f343b0c96f486a8461ed036e01a153.jpg" class="d-block w-100" alt="Friendly Service">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://t4.ftcdn.net/jpg/00/65/70/65/360_F_65706597_uNm2SwlPIuNUDuMwo6stBd81e25Y8K8s.jpg" class="card-img-top" alt="Fresh Produce">
+                    <div class="card-body">
+                        <h5 class="card-title">Fresh Produce</h5>
+                        <p class="card-text">Discover our wide selection of fresh, locally-sourced fruits and vegetables.</p>
+                        <a href="products.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Artisanal Goods">
+                    <div class="card-body">
+                        <h5 class="card-title">Artisanal Goods</h5>
+                        <p class="card-text">Explore our curated collection of locally-made artisanal products.</p>
+                        <a href="products.html" class="btn btn-primary">Discover More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSxQGiXQYa1bqgg0w94mKc02i_Gjxn1RoO9w&s" class="card-img-top" alt="Community Events">
+                    <div class="card-body">
+                        <h5 class="card-title">Community Events</h5>
+                        <p class="card-text">Join us for exciting community events and workshops throughout the year.</p>
+                        <a href="services.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-light py-3 mt-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Fresh Farms Market of Grosse Pointe. All rights reserved.</p>
+            <p>Created by James Najjar.1biggame1</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
